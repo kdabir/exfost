@@ -1,0 +1,31 @@
+{
+  "name": "exfost",
+  "version": "0.0.1",
+  "description": "expressions for statements",
+  "scripts": {
+    "clean": "rm -rf ./dist/ ./doc/ ./coverage/ *.tgz ",
+    "build": "tsc",
+    "test": "jest",
+    "watch": "jest --watch --notify",
+    "cov": "jest --coverage",
+    "doc": "typedoc --out ./doc/ ./src/*",
+    "prepare": "npm run clean && npm run build"
+  },
+  "author": "kdabir",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^23.3.3",
+    "@types/node": "^10.11.4",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.4",
+    "ts-node": "^7.0.1",
+    "typedoc": "^0.13.0",
+    "typescript": "^3.1.1"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "/dist"
+  ],
+  "dependencies": {
+  }
+}
