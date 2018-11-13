@@ -4,7 +4,7 @@
 to see if we can replace statements with expressions in javascript/typescript. 
 
 
-[![Build Status](https://travis-ci.org/kdabir/exfost.svg?branch=master)](https://travis-ci.org/kdabir/exfost)
+[![Build Status](https://travis-ci.org/kdabir/exfost.svg?branch=master)](https://travis-ci.org/kdabir/exfost) [![Greenkeeper badge](https://badges.greenkeeper.io/kdabir/exfost.svg)](https://greenkeeper.io/)
 
 
 
