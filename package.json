@@ -9,7 +9,8 @@
     "watch": "jest --watch --notify",
     "cov": "jest --coverage",
     "doc": "typedoc --out ./doc/ ./src/*",
-    "prepare": "npm run clean && npm run build"
+    "prepare": "npm run clean && npm run build",
+    "stryker": "stryker run"
   },
   "author": "kdabir",
   "license": "MIT",
