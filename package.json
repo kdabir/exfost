@@ -16,7 +16,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^24.0.0",
-    "@types/node": "^12.7.5",
+    "@types/node": "^12.12.6",
     "codecov": "^3.1.0",
     "jest": "^23.6.0",
     "stryker": "^0.32.1",
